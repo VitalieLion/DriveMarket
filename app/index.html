@@ -62,85 +62,117 @@
         </div>
       </div>
     </div>
-    <div class="header__bottom">
+    <div class="header__bottom ">
       <div class="container">
-          <ul class="menu__categories">
-            <li class="menu__categories-item">
-              <a class="menu__categories-link" href="#">Квадроциклы</a>
-            </li>
-            <li class="menu__categories-item">
-              <a class="menu__categories-link" href="#">Катера</a>
-            </li>
-            <li class="menu__categories-item">
-              <a class="menu__categories-link" href="#">Гидроциклы</a>
-            </li>
-            <li class="menu__categories-item">
-              <a class="menu__categories-link" href="#">Лодки</a>
-            </li>
-            <li class="menu__categories-item">
-              <a class="menu__categories-link" href="#">Вездеходы</a>
-            </li>
-            <li class="menu__categories-item">
-              <a class="menu__categories-link" href="#">Снегоходы</a>
-            </li>
-            <li class="menu__categories-item">
-              <a class="menu__categories-link" href="#">Двигатели</a>
-            </li>
-            <li class="menu__categories-item">
-              <a class="menu__categories-link" href="#">Запчасти</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="menu__categories">
+          <li class="menu__categories-item">
+            <a class="menu__categories-link" href="#">Квадроциклы</a>
+          </li>
+          <li class="menu__categories-item">
+            <a class="menu__categories-link" href="#">Катера</a>
+          </li>
+          <li class="menu__categories-item">
+            <a class="menu__categories-link" href="#">Гидроциклы</a>
+          </li>
+          <li class="menu__categories-item">
+            <a class="menu__categories-link" href="#">Лодки</a>
+          </li>
+          <li class="menu__categories-item">
+            <a class="menu__categories-link" href="#">Вездеходы</a>
+          </li>
+          <li class="menu__categories-item">
+            <a class="menu__categories-link" href="#">Снегоходы</a>
+          </li>
+          <li class="menu__categories-item">
+            <a class="menu__categories-link" href="#">Двигатели</a>
+          </li>
+          <li class="menu__categories-item">
+            <a class="menu__categories-link" href="#">Запчасти</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
 
 
 
-  <section class="banner-section">
+  <section class="banner-section page-section">
     <div class="container">
       <div class="banner-section__inner">
-      <div class="banner-section__slider">
-        <a class="banner-section__slider-item" href="#">
-          <img src="../img/slider-img.jpg" alt="">
-        </a>
-        <a class="banner-section__slider-item" href="#">
-          <img src="../img/slider-img.jpg" alt="">
-        </a>
-        <a class="banner-section__slider-item" href="#">
-          <img src="../img/slider-img.jpg" alt="">
-        </a>
-        <a class="banner-section__slider-item" href="#">
-          <img src="../img/slider-img.jpg" alt="">
-        </a>
-        <a class="banner-section__slider-item" href="#"></a>
+        <div class="banner-section__slider">
+          <a class="banner-section__slider-item" href="#">
+            <img src="../img/slider-img.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img src="../img/slider-img.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img src="../img/slider-img.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img src="../img/slider-img.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#"></a>
           <img src="../img/slider-img.jpg" alt="">
           </a>
           <a class="banner-section__slider-item" href="#">
-          <img src="../img/slider-img.jpg" alt="">
+            <img src="../img/slider-img.jpg" alt="">
+          </a>
+
+        </div>
+        <a class="banner-section__item sale-item" href="#">
+          <div class="sale-item__top">
+            <p class="sale-item__info">
+              акция
+            </p>
+            <div class="sale-item__price">
+              <div class=" price sale-item__price-new">190 000</div>
+              <div class=" price sale-item__price-old">225 000</div>
+            </div>
+          </div>
+          <img src="../img/content/sale-img.jpg" alt="" class="sale-item__img">
+          <h5 class="sale-item__title">
+            Лодочный мотор
+            Suzuki DF9.9BRS
+          </h5>
+          <div class="sale-item__footer">Акция действует до
+            <span>31.08.2020</span>
+          </div>
         </a>
-        
-      </div>
-       <a class="banner-section__item sale-item" href="#">
-       <div class="sale-item__top">
-         <p class="sale-item__info">
-          акция
-         </p>
-         <div class="sale-item__price">
-           <div class=" price sale-item__price-new">190 000</div>
-           <div class=" price sale-item__price-old">225 000</div>
-         </div>
-       </div>
-       <img src="../img/content/sale-img.jpg" alt="" class="sale-item__img">
-       <h5 class="sale-item__title">
-        Лодочный мотор 
-        Suzuki DF9.9BRS
-       </h5>
-       <div class="sale-item__footer">Акция действует до
-         <span>31.08.2020</span>
-       </div>
-      </a>
       </div>
     </div>
+  </section>
+  <section class="search page-section">
+    <div class="container">
+      <div class="search__inner">
+        <div class="search__tabs">
+          <a class="search__tabs-item " href="#tab-1">Поиск по номеру</a>
+          <a class="search__tabs-item search__tabs-item--active" href="#tab-2">Поиск по марке</a>
+          <a class="search__tabs-item" href="#tab-3">Поиск по названию товара</a>
+
+        </div>
+        <div class="search__content">
+          <div id='tab1' class="search__content-item">
+            <form class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введите марку ">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+          <div id='tab2' class="search__content-item">
+            <form class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Поиск по марке ">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+          <div id='tab3' class="search__content-item">
+            <form class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Поиск по названию товара ">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
   </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
